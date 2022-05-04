@@ -41,3 +41,23 @@ a {
   padding: 0;
 }
 
+.container {
+  width: 1170px;
+  margin: auto;
+  padding: auto;
+}
+
+.header-top {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-login {
+  display: inline-block;
+}
