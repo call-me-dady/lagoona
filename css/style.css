@@ -31,6 +31,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Muller', sans-serif;
+}
+
+:root {
+  --white-color: #FFFFFF;
+  --dark-grey: #666666;
+}
+
 a {
   text-decoration: none;
 }
@@ -47,17 +56,33 @@ a {
   padding: auto;
 }
 
+/* header*/
 .header-top {
-  padding-top: 30px;
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrapper {
   display: flex;
   align-items: center;
 }
 
-.login {
-  display: flex;
-  justify-content: flex-end;
+.logo {
+  margin-right: 40px;
 }
 
-.header-login {
-  display: inline-block;
+.header__number {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--dark-grey);
+}
+
+.header__login {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
 }
