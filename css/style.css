@@ -33,11 +33,24 @@
 
 body {
   font-family: 'Muller', sans-serif;
+  background-color: var(--grey-color);
+}
+
+.site-btn {
+  padding: 13px 20px;
+  color: var(--orange-color);
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--orange-color);
+  border-radius: 10px;
 }
 
 :root {
   --white-color: #FFFFFF;
+  --black-color: #333333;
+  --grey-color: #E5E5E5;
   --dark-grey: #666666;
+  --orange-color: #CC9933;
 }
 
 a {
@@ -48,6 +61,10 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.site-link {
+  color: var(--orange-color);
 }
 
 .container {
@@ -85,4 +102,22 @@ a {
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 30px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-color);
+}
+
+.header-nav-left-list {
+  display: flex;
+}
+
+.header-nav-right {
+  padding: 14px 45px;
+}
+
+.header__btn {
+  justify-content: space-around;
 }
