@@ -108,9 +108,12 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: var(--white-color);
+  padding: 14px 45px;
+  border-radius: 15px;
+  align-items: center;
 }
 
-.header-nav-left-list {
+.header-nav__list {
   display: flex;
 }
 
@@ -118,6 +121,11 @@ a {
   padding: 14px 45px;
 }
 
-.header__btn {
-  justify-content: space-around;
+.header-nav__link {
+  color: var(--dark-grey);
 }
+
+.header-nav__item:not(:last-child) {
+  margin-right: 45px;
+}
+
