@@ -53,6 +53,19 @@ body {
   --orange-color: #CC9933;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 a {
   text-decoration: none;
 }
@@ -131,4 +144,15 @@ a {
 
 .header__btn:first-child {
   margin-right: 35px;
+}
+
+.header__inner {
+  padding-left: 57px;
+  border-left: solid 1px #E1E1E1;
+}
+
+/* special */
+
+.special-content {
+  display: flex;
 }
