@@ -36,6 +36,10 @@ body {
   background-color: var(--grey-color);
 }
 
+h2, h3 {
+  margin: 0;
+}
+
 .site-btn {
   padding: 13px 20px 9px 19px;
   color: var(--orange-color);
@@ -51,6 +55,7 @@ body {
   --grey-color: #E5E5E5;
   --dark-grey: #666666;
   --orange-color: #CC9933;
+  --etc-color: #FFCC66;
 }
 
 .visually-hidden {
@@ -153,6 +158,10 @@ a {
 
 /* special */
 
+.special {
+  padding-top: 70px;
+}
+
 .special-content {
   display: flex;
 }
@@ -164,7 +173,6 @@ a {
   font-size: 40px;
   line-height: 40px;
   margin-left: 41px;
-  margin-top: 70px;
   margin-bottom: 0;
   color: var(--black-color);
 }
@@ -184,4 +192,48 @@ a {
 
 .special-content__left > .special-article {
   height: 258px;
+}
+
+.special-content__right {
+  margin-left: 23px;
+}
+
+.special-content__left > .special-article:first-child {
+  margin-bottom: 23px;
+}
+
+.special__title {
+  margin-bottom: 20px;
+}
+
+.special-content__left > .special-article .card-small-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--white-color);
+}
+
+.card-small-price {
+  display: block;
+  padding-left: 40px;
+  padding-top: 15px;
+  font-size: 20px;
+  color: var(--white-color);
+  opacity: 0.8;
+}
+
+.etc {
+  background-image: url(../img/arrow_1.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--etc-color);
+}
+
+.card-small-name {
+  padding-left: 40px;
+  padding-top: 40px;
 }
