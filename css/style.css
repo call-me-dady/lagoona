@@ -56,6 +56,7 @@ h2, h3 {
   --dark-grey: #666666;
   --orange-color: #CC9933;
   --etc-color: #FFCC66;
+  --text-black: #000000;
 }
 
 .visually-hidden {
@@ -265,4 +266,49 @@ a {
   line-height: 30px;
   opacity: 0.8;
   color: var(--white-color);
+}
+
+/* About Us */
+
+.about-us {
+  padding-top: 70px;
+}
+
+
+.text {
+  margin-top: 0;
+  margin-bottom: 70px;
+  max-width: 888px;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--text-black);
+  
+
+}
+
+/*
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--text-black);
+} */
+
+.about-us__title {
+  padding-bottom: 20px;
+}
+
+.about-us-text {
+/*
+  max-width: 888px;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--text-black);
+*/
+}
+
+/* Service */
+
+.service-name {
+  margin-bottom: 20px;
 }
