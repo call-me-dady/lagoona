@@ -296,3 +296,36 @@ a {
 .service-name {
   margin-bottom: 20px;
 }
+
+.service_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-block {
+  width: 49%;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: var(--white-color);
+  border-radius: 15px 15px 15px 15px;
+  
+}
+
+.services-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: var(--orange-color);
+  background-image: url(../img/arrow_1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.service__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--text-black);
+}
