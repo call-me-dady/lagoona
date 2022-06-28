@@ -329,3 +329,7 @@ a {
   line-height: 200%;
   color: var(--text-black);
 }
+
+.services-block:nth-child(-n+2) {
+  margin-bottom: 24px;
+}
