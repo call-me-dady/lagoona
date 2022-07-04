@@ -306,6 +306,7 @@ a {
 .services-block {
   width: 49%;
   height: 330px;
+  padding-top: 190px;
   background-repeat: no-repeat;
   background-position: top center;
   background-color: var(--white-color);
@@ -313,14 +314,26 @@ a {
   
 }
 
+/*
 .services-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 200%;
-  color: var(--orange-color);
+  
   background-image: url(../img/arrow_1.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right center;
+}
+*/
+
+.service__title {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  background-image: url(../img/arrow_1.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 15px;
 }
 
 .service__text {
