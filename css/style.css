@@ -57,6 +57,7 @@ h2, h3 {
   --orange-color: #CC9933;
   --etc-color: #FFCC66;
   --text-black: #000000;
+  --light-grey: #999999;
 }
 
 .visually-hidden {
@@ -393,6 +394,7 @@ a {
 
 .accommondation__title {
   padding-top: 70px;  
+  padding-bottom: 20px;
 }
 
 .accomondation-list {
@@ -402,10 +404,75 @@ a {
 }
 
 .accommondation-item {
+  height: 440px;
   background-color: var(--white-color);
   border-radius: 15px;
+  overflow: hidden;
+}
+
+.accommondation-item:nth-child(-n+9) {
+  margin-bottom: 24px;
 }
 
 .accomondation__img {
   border-radius: 15px 15px 0 0;
+}
+
+.accommodation-item__price {
+  margin-left: 45px;
+  margin-top: 36px;
+}
+
+.accommodation-item__price_rates {
+  display: inline-block;
+}
+
+.accommodation-item__price_bg {
+  padding-right: 52px;
+}
+
+.accommodation-item__name {
+  padding-left: 45px;
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--text-black);
+}
+
+.accommodation-item__geo {
+  margin: 0;
+  padding-left: 45px;
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--light-grey);
+}
+
+.accommodation-item__btn {
+  margin-left: 45px;
+  margin-top: 17px;
+}
+
+.all-variant {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(/img/hotel-9-9.jpg);
+  width: 374px;
+  height: 440px;
+}
+
+.accommondation-item__all {
+  margin-bottom: 27px;
+  margin-left: 54px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: var(--white-color);
+  background-image: url(../img/arrow_grey.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 17px;
 }
