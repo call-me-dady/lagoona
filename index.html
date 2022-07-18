@@ -590,6 +590,68 @@
         </ul>
       </div>  
     </section>
+    <section class="want-a-tour">
+      <div class="container container-want">
+        <h2 class="header__want">
+          Хочу тур
+        </h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="want__form">
+          <label for="city-departure">
+            Город вылета
+          </label>
+          <p>
+            <select name="city-departure" id="city-departure">
+              <option value="Saint petersburg">Санкт-Петербург</option>
+              <option value="Moscow">Москва</option>
+              <option value="Voronezh">Воронеж</option>
+              <option value="Omsk">Омск</option>
+            </select>
+          </p>
+          <label for="country">
+            Страна
+          </label>
+          <p>
+            <select name="country" id="country">
+              <option value="Australia">Австралия</option>
+              <option value="China">Китай</option>
+              <option value="Greece">Греция</option>
+              <option value="UAR">ЮАР</option>
+            </select>
+          </p>
+          <label for="date-departure">
+            Дата прибытия
+          </label>
+          <p>
+            <input id="date-departure" type="date">
+          </p>
+          <label for="nights">
+            Ночей
+          </label>
+          <p>
+            <input id="nights" type="number"
+            min="4"
+            max="28"
+            value="7">
+          </p>
+          <label for="tourist">
+            Туристы
+          </label>
+          <p>
+            <input id="tourist" type="number" required>
+          </p>
+          <input type="submit" value="Найти">
+
+        </form>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts__heading">
+          Контакты
+        </h2>
+          
+      </div>
+    </section>
   </main>
 </body>
 </html>
