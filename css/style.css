@@ -479,24 +479,61 @@ a {
 
 /* Want-A-Tour */
 
+.want-a-tour {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 .container-want {
+  border-radius: 15px;
   background-color: #E9E9E9;
 }
 
 .header__want {
   padding-left: 40px;
   padding-top: 45px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .want__form {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--white-color);
   border-radius: 15px;
 }
 
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+
+}
+
 .city-name {
   padding-left: 28px;
-  margin-top: 31px;
+  padding-bottom: 32px;
 }
+
+.form-btn {
+  margin-top: 32px;
+  margin-right: 28px;
+  align-items: flex-start;
+  width: 108px;
+  height: 42px;
+}
+
+select {
+  border: none;
+}
+
+.form__input {
+  border: none;
+}
+
+
 
 
 /* Contacts */

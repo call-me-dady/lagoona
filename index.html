@@ -596,60 +596,42 @@
           Хочу тур
         </h2>
         <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="want__form">
-          <label for="city-departure" class="city-name">
+          <label for="city-departure" class="form__label city-name">
             Город вылета
-<<<<<<< Updated upstream
-            <select name="city-departure" id="city-departure">
+            <select name="city-departure">
               <option value="Saint petersburg">Санкт-Петербург</option>
               <option value="Moscow">Москва</option>
               <option value="Voronezh">Воронеж</option>
               <option value="Omsk">Омск</option>
             </select>
           </label>
-          <label for="country">
+          <label for="country" class="form__label">
             Страна
-            <select name="country" id="country">
+            <select name="country">
               <option value="Australia">Австралия</option>
               <option value="China">Китай</option>
               <option value="Greece">Греция</option>
               <option value="UAR">ЮАР</option>
-            </select>
-          </label>  
-=======
-          </label>
-          
-          <select name="city-departure" id="city-departure">
-            <option value="Saint petersburg">Санкт-Петербург</option>
-            <option value="Moscow">Москва</option>
-            <option value="Voronezh">Воронеж</option>
-            <option value="Omsk">Омск</option>
-          </select>
-          <label for="country">
-            Страна
-          </label>
-          <select name="country" id="country">
-            <option value="Australia">Австралия</option>
-            <option value="China">Китай</option>
-            <option value="Greece">Греция</option>
-            <option value="UAR">ЮАР</option>
-          </select>
->>>>>>> Stashed changes
-          <label for="date-departure">
+            </select>  
+          </label>    
+          <label for="date-departure" class="form__label">
             Дата прибытия
-          </label>
-            <input id="date-departure" type="date">
-          <label for="nights">
+            <input id="date-departure" type="date" class="form__input">
+          </label>  
+          <label for="nights" class="form__label">
             Ночей
             <input id="nights" type="number"
               min="4"
               max="28"
-              value="7">
+              value="7" class="form__input">
           </label>
-          <label for="tourist">
+          <label for="tourist" class="form__label">
             Туристы
-              <input id="tourist" type="number" required>
+              <input id="tourist" type="number" required class="form__input">
           </label>
-          <input type="submit" value="Найти">
+          <button class="site-btn form-btn">
+            Найти
+          </button>
         </form>
       </div>
     </section>
