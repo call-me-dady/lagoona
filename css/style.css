@@ -538,4 +538,12 @@ select {
 
 /* Contacts */
 
+.contacts__heading {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
 
+.container__contacts {
+  background-color: var(--white-color);
+  border-radius: 15px ;
+}
